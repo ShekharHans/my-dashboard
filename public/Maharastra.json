@@ -1,0 +1,2130 @@
+[
+  {
+    "ID": 1,
+    "Date": "06-01-2011",
+    "PeakDemand_MW": 18801,
+    "EnergyRequired_MU": 10616,
+    "trend": 18035.41435,
+    "yhat": 18086.51125
+  },
+  {
+    "ID": 2,
+    "Date": "07-01-2011",
+    "PeakDemand_MW": 18122,
+    "EnergyRequired_MU": 10219,
+    "trend": 18037.8849,
+    "yhat": 16054.34998
+  },
+  {
+    "ID": 3,
+    "Date": "08-01-2011",
+    "PeakDemand_MW": 18115,
+    "EnergyRequired_MU": 10266,
+    "trend": 18040.43781,
+    "yhat": 16471.97976
+  },
+  {
+    "ID": 4,
+    "Date": "09-01-2011",
+    "PeakDemand_MW": 20119,
+    "EnergyRequired_MU": 10055,
+    "trend": 18042.99071,
+    "yhat": 16677.68685
+  },
+  {
+    "ID": 5,
+    "Date": "10-01-2011",
+    "PeakDemand_MW": 20595,
+    "EnergyRequired_MU": 12140,
+    "trend": 18045.46126,
+    "yhat": 17979.54077
+  },
+  {
+    "ID": 6,
+    "Date": "11-01-2011",
+    "PeakDemand_MW": 20978,
+    "EnergyRequired_MU": 12829,
+    "trend": 18048.01416,
+    "yhat": 18527.21488
+  },
+  {
+    "ID": 7,
+    "Date": "12-01-2011",
+    "PeakDemand_MW": 21069,
+    "EnergyRequired_MU": 14016,
+    "trend": 18050.48472,
+    "yhat": 18480.74793
+  },
+  {
+    "ID": 8,
+    "Date": "01-01-2012",
+    "PeakDemand_MW": 19550,
+    "EnergyRequired_MU": 12998,
+    "trend": 18053.03762,
+    "yhat": 18054.05629
+  },
+  {
+    "ID": 9,
+    "Date": "02-01-2012",
+    "PeakDemand_MW": 19697,
+    "EnergyRequired_MU": 11806,
+    "trend": 18055.59053,
+    "yhat": 18728.20771
+  },
+  {
+    "ID": 10,
+    "Date": "03-01-2012",
+    "PeakDemand_MW": 19640,
+    "EnergyRequired_MU": 11692,
+    "trend": 18057.97873,
+    "yhat": 19699.18079
+  },
+  {
+    "ID": 11,
+    "Date": "04-01-2012",
+    "PeakDemand_MW": 17934,
+    "EnergyRequired_MU": 11267,
+    "trend": 18060.53164,
+    "yhat": 18794.30978
+  },
+  {
+    "ID": 12,
+    "Date": "05-01-2012",
+    "PeakDemand_MW": 17762,
+    "EnergyRequired_MU": 11396,
+    "trend": 18063.00219,
+    "yhat": 18948.71927
+  },
+  {
+    "ID": 13,
+    "Date": "06-01-2012",
+    "PeakDemand_MW": 17770,
+    "EnergyRequired_MU": 10395,
+    "trend": 18065.5551,
+    "yhat": 17779.02927
+  },
+  {
+    "ID": 14,
+    "Date": "07-01-2012",
+    "PeakDemand_MW": 15229,
+    "EnergyRequired_MU": 10910,
+    "trend": 18068.02565,
+    "yhat": 16062.62977
+  },
+  {
+    "ID": 15,
+    "Date": "08-01-2012",
+    "PeakDemand_MW": 15778,
+    "EnergyRequired_MU": 9979,
+    "trend": 18070.57856,
+    "yhat": 16931.38969
+  },
+  {
+    "ID": 16,
+    "Date": "09-01-2012",
+    "PeakDemand_MW": 15951,
+    "EnergyRequired_MU": 9802,
+    "trend": 18073.26928,
+    "yhat": 17136.7979
+  },
+  {
+    "ID": 17,
+    "Date": "10-01-2012",
+    "PeakDemand_MW": 17114,
+    "EnergyRequired_MU": 10841,
+    "trend": 18075.87321,
+    "yhat": 17690.72448
+  },
+  {
+    "ID": 18,
+    "Date": "11-01-2012",
+    "PeakDemand_MW": 17125,
+    "EnergyRequired_MU": 9672,
+    "trend": 18078.56394,
+    "yhat": 18429.64155
+  },
+  {
+    "ID": 19,
+    "Date": "12-01-2012",
+    "PeakDemand_MW": 17126,
+    "EnergyRequired_MU": 10156,
+    "trend": 18081.16787,
+    "yhat": 18063.86397
+  },
+  {
+    "ID": 20,
+    "Date": "01-01-2013",
+    "PeakDemand_MW": 16335,
+    "EnergyRequired_MU": 9389,
+    "trend": 18084.59467,
+    "yhat": 18314.38396
+  },
+  {
+    "ID": 21,
+    "Date": "02-01-2013",
+    "PeakDemand_MW": 16832,
+    "EnergyRequired_MU": 9253,
+    "trend": 18088.02148,
+    "yhat": 18850.62833
+  },
+  {
+    "ID": 22,
+    "Date": "03-01-2013",
+    "PeakDemand_MW": 17443,
+    "EnergyRequired_MU": 10924,
+    "trend": 18091.11666,
+    "yhat": 19467.17876
+  },
+  {
+    "ID": 23,
+    "Date": "04-01-2013",
+    "PeakDemand_MW": 17381,
+    "EnergyRequired_MU": 11654,
+    "trend": 18094.54347,
+    "yhat": 19117.53584
+  },
+  {
+    "ID": 24,
+    "Date": "05-01-2013",
+    "PeakDemand_MW": 17309,
+    "EnergyRequired_MU": 12053,
+    "trend": 18097.85973,
+    "yhat": 18947.80554
+  },
+  {
+    "ID": 25,
+    "Date": "06-01-2013",
+    "PeakDemand_MW": 16108,
+    "EnergyRequired_MU": 9452,
+    "trend": 18120.68324,
+    "yhat": 17948.09874
+  },
+  {
+    "ID": 26,
+    "Date": "07-01-2013",
+    "PeakDemand_MW": 14412,
+    "EnergyRequired_MU": 9224,
+    "trend": 18142.77051,
+    "yhat": 16148.55071
+  },
+  {
+    "ID": 27,
+    "Date": "08-01-2013",
+    "PeakDemand_MW": 15266,
+    "EnergyRequired_MU": 9391,
+    "trend": 18165.59402,
+    "yhat": 16885.42743
+  },
+  {
+    "ID": 28,
+    "Date": "09-01-2013",
+    "PeakDemand_MW": 16621,
+    "EnergyRequired_MU": 9737,
+    "trend": 18188.41753,
+    "yhat": 17105.13101
+  },
+  {
+    "ID": 29,
+    "Date": "10-01-2013",
+    "PeakDemand_MW": 16575,
+    "EnergyRequired_MU": 10507,
+    "trend": 18210.5048,
+    "yhat": 17927.87023
+  },
+  {
+    "ID": 30,
+    "Date": "11-01-2013",
+    "PeakDemand_MW": 17343,
+    "EnergyRequired_MU": 10447,
+    "trend": 18253.29115,
+    "yhat": 18646.1023
+  },
+  {
+    "ID": 31,
+    "Date": "12-01-2013",
+    "PeakDemand_MW": 17560,
+    "EnergyRequired_MU": 11269,
+    "trend": 18294.69729,
+    "yhat": 18429.35482
+  },
+  {
+    "ID": 32,
+    "Date": "01-01-2014",
+    "PeakDemand_MW": 18427,
+    "EnergyRequired_MU": 11300,
+    "trend": 18337.48364,
+    "yhat": 18495.10737
+  },
+  {
+    "ID": 33,
+    "Date": "02-01-2014",
+    "PeakDemand_MW": 19276,
+    "EnergyRequired_MU": 10216,
+    "trend": 18380.26999,
+    "yhat": 19115.64715
+  },
+  {
+    "ID": 34,
+    "Date": "03-01-2014",
+    "PeakDemand_MW": 18260,
+    "EnergyRequired_MU": 11038,
+    "trend": 18427.32325,
+    "yhat": 19543.44089
+  },
+  {
+    "ID": 35,
+    "Date": "04-01-2014",
+    "PeakDemand_MW": 19749,
+    "EnergyRequired_MU": 11927,
+    "trend": 18479.41792,
+    "yhat": 19796.07232
+  },
+  {
+    "ID": 36,
+    "Date": "05-01-2014",
+    "PeakDemand_MW": 19463,
+    "EnergyRequired_MU": 12372,
+    "trend": 18529.83213,
+    "yhat": 19342.2779
+  },
+  {
+    "ID": 37,
+    "Date": "06-01-2014",
+    "PeakDemand_MW": 18962,
+    "EnergyRequired_MU": 11572,
+    "trend": 18581.9268,
+    "yhat": 18521.92304
+  },
+  {
+    "ID": 38,
+    "Date": "07-01-2014",
+    "PeakDemand_MW": 18586,
+    "EnergyRequired_MU": 10713,
+    "trend": 18632.341,
+    "yhat": 16645.40059
+  },
+  {
+    "ID": 39,
+    "Date": "08-01-2014",
+    "PeakDemand_MW": 17624,
+    "EnergyRequired_MU": 10613,
+    "trend": 18684.72089,
+    "yhat": 17261.39527
+  },
+  {
+    "ID": 40,
+    "Date": "09-01-2014",
+    "PeakDemand_MW": 18565,
+    "EnergyRequired_MU": 10734,
+    "trend": 18737.10078,
+    "yhat": 17510.80884
+  },
+  {
+    "ID": 41,
+    "Date": "10-01-2014",
+    "PeakDemand_MW": 20004,
+    "EnergyRequired_MU": 12436,
+    "trend": 18787.791,
+    "yhat": 18611.60506
+  },
+  {
+    "ID": 42,
+    "Date": "11-01-2014",
+    "PeakDemand_MW": 20147,
+    "EnergyRequired_MU": 12580,
+    "trend": 18840.17089,
+    "yhat": 19275.73397
+  },
+  {
+    "ID": 43,
+    "Date": "12-01-2014",
+    "PeakDemand_MW": 19906,
+    "EnergyRequired_MU": 11098,
+    "trend": 18890.89109,
+    "yhat": 19174.7954
+  },
+  {
+    "ID": 44,
+    "Date": "01-01-2015",
+    "PeakDemand_MW": 18464,
+    "EnergyRequired_MU": 10730,
+    "trend": 18943.30197,
+    "yhat": 19024.64936
+  },
+  {
+    "ID": 45,
+    "Date": "02-01-2015",
+    "PeakDemand_MW": 19146,
+    "EnergyRequired_MU": 9841,
+    "trend": 18995.71285,
+    "yhat": 19701.05342
+  },
+  {
+    "ID": 46,
+    "Date": "03-01-2015",
+    "PeakDemand_MW": 19936,
+    "EnergyRequired_MU": 10281,
+    "trend": 19043.0517,
+    "yhat": 19904.65773
+  },
+  {
+    "ID": 47,
+    "Date": "04-01-2015",
+    "PeakDemand_MW": 19933,
+    "EnergyRequired_MU": 11649,
+    "trend": 19095.46258,
+    "yhat": 20709.96364
+  },
+  {
+    "ID": 48,
+    "Date": "05-01-2015",
+    "PeakDemand_MW": 19886,
+    "EnergyRequired_MU": 12473,
+    "trend": 19146.18279,
+    "yhat": 19919.33278
+  },
+  {
+    "ID": 49,
+    "Date": "06-01-2015",
+    "PeakDemand_MW": 19290,
+    "EnergyRequired_MU": 10915,
+    "trend": 19198.59366,
+    "yhat": 19249.69057
+  },
+  {
+    "ID": 50,
+    "Date": "07-01-2015",
+    "PeakDemand_MW": 19734,
+    "EnergyRequired_MU": 11953,
+    "trend": 19249.31387,
+    "yhat": 17265.77894
+  },
+  {
+    "ID": 51,
+    "Date": "08-01-2015",
+    "PeakDemand_MW": 18571,
+    "EnergyRequired_MU": 11464,
+    "trend": 19301.72475,
+    "yhat": 17733.26671
+  },
+  {
+    "ID": 52,
+    "Date": "09-01-2015",
+    "PeakDemand_MW": 19247,
+    "EnergyRequired_MU": 11245,
+    "trend": 19354.13563,
+    "yhat": 17988.83177
+  },
+  {
+    "ID": 53,
+    "Date": "10-01-2015",
+    "PeakDemand_MW": 20973,
+    "EnergyRequired_MU": 13023,
+    "trend": 19404.85584,
+    "yhat": 19338.93534
+  },
+  {
+    "ID": 54,
+    "Date": "11-01-2015",
+    "PeakDemand_MW": 20213,
+    "EnergyRequired_MU": 11809,
+    "trend": 19457.26672,
+    "yhat": 19936.46743
+  },
+  {
+    "ID": 55,
+    "Date": "12-01-2015",
+    "PeakDemand_MW": 19102,
+    "EnergyRequired_MU": 11690,
+    "trend": 19507.98692,
+    "yhat": 19938.25013
+  },
+  {
+    "ID": 56,
+    "Date": "01-01-2016",
+    "PeakDemand_MW": 18188,
+    "EnergyRequired_MU": 11297,
+    "trend": 19560.3978,
+    "yhat": 19561.41647
+  },
+  {
+    "ID": 57,
+    "Date": "02-01-2016",
+    "PeakDemand_MW": 19015,
+    "EnergyRequired_MU": 11604,
+    "trend": 19612.80869,
+    "yhat": 20285.42587
+  },
+  {
+    "ID": 58,
+    "Date": "03-01-2016",
+    "PeakDemand_MW": 19218,
+    "EnergyRequired_MU": 12695,
+    "trend": 19661.83823,
+    "yhat": 21303.04029
+  },
+  {
+    "ID": 59,
+    "Date": "04-01-2016",
+    "PeakDemand_MW": 20057,
+    "EnergyRequired_MU": 12624,
+    "trend": 19714.24911,
+    "yhat": 20448.02725
+  },
+  {
+    "ID": 60,
+    "Date": "05-01-2016",
+    "PeakDemand_MW": 19916,
+    "EnergyRequired_MU": 12556,
+    "trend": 19764.96933,
+    "yhat": 20650.6864
+  },
+  {
+    "ID": 61,
+    "Date": "06-01-2016",
+    "PeakDemand_MW": 19813,
+    "EnergyRequired_MU": 11470,
+    "trend": 19817.38021,
+    "yhat": 19530.85438
+  },
+  {
+    "ID": 62,
+    "Date": "07-01-2016",
+    "PeakDemand_MW": 16014,
+    "EnergyRequired_MU": 10403,
+    "trend": 19868.10042,
+    "yhat": 17862.70454
+  },
+  {
+    "ID": 63,
+    "Date": "08-01-2016",
+    "PeakDemand_MW": 18657,
+    "EnergyRequired_MU": 11113,
+    "trend": 19920.51131,
+    "yhat": 18781.32244
+  },
+  {
+    "ID": 64,
+    "Date": "09-01-2016",
+    "PeakDemand_MW": 20240,
+    "EnergyRequired_MU": 10947,
+    "trend": 19972.9222,
+    "yhat": 19036.45081
+  },
+  {
+    "ID": 65,
+    "Date": "10-01-2016",
+    "PeakDemand_MW": 20499,
+    "EnergyRequired_MU": 11551,
+    "trend": 20023.64241,
+    "yhat": 19638.49367
+  },
+  {
+    "ID": 66,
+    "Date": "11-01-2016",
+    "PeakDemand_MW": 20305,
+    "EnergyRequired_MU": 11764,
+    "trend": 20076.05331,
+    "yhat": 20427.13093
+  },
+  {
+    "ID": 67,
+    "Date": "12-01-2016",
+    "PeakDemand_MW": 19899,
+    "EnergyRequired_MU": 12158,
+    "trend": 20126.77355,
+    "yhat": 20109.46965
+  },
+  {
+    "ID": 68,
+    "Date": "01-01-2017",
+    "PeakDemand_MW": 20315,
+    "EnergyRequired_MU": 10963,
+    "trend": 20179.18445,
+    "yhat": 20408.97374
+  },
+  {
+    "ID": 69,
+    "Date": "02-01-2017",
+    "PeakDemand_MW": 21281,
+    "EnergyRequired_MU": 10972,
+    "trend": 20231.59536,
+    "yhat": 20994.20221
+  },
+  {
+    "ID": 70,
+    "Date": "03-01-2017",
+    "PeakDemand_MW": 22516,
+    "EnergyRequired_MU": 12774,
+    "trend": 20278.93424,
+    "yhat": 21654.99635
+  },
+  {
+    "ID": 71,
+    "Date": "04-01-2017",
+    "PeakDemand_MW": 22542,
+    "EnergyRequired_MU": 14155,
+    "trend": 20331.34515,
+    "yhat": 21354.33753
+  },
+  {
+    "ID": 72,
+    "Date": "05-01-2017",
+    "PeakDemand_MW": 21874,
+    "EnergyRequired_MU": 14145,
+    "trend": 20382.06538,
+    "yhat": 21232.0112
+  },
+  {
+    "ID": 73,
+    "Date": "06-01-2017",
+    "PeakDemand_MW": 20623,
+    "EnergyRequired_MU": 11714,
+    "trend": 20434.47629,
+    "yhat": 20261.89179
+  },
+  {
+    "ID": 74,
+    "Date": "07-01-2017",
+    "PeakDemand_MW": 19339,
+    "EnergyRequired_MU": 11532,
+    "trend": 20485.19653,
+    "yhat": 18490.97672
+  },
+  {
+    "ID": 75,
+    "Date": "08-01-2017",
+    "PeakDemand_MW": 20015,
+    "EnergyRequired_MU": 12123,
+    "trend": 20537.60743,
+    "yhat": 19257.44084
+  },
+  {
+    "ID": 76,
+    "Date": "09-01-2017",
+    "PeakDemand_MW": 19490,
+    "EnergyRequired_MU": 11501,
+    "trend": 20590.01834,
+    "yhat": 19506.73182
+  },
+  {
+    "ID": 77,
+    "Date": "10-01-2017",
+    "PeakDemand_MW": 20310,
+    "EnergyRequired_MU": 12072,
+    "trend": 20640.73858,
+    "yhat": 20358.10401
+  },
+  {
+    "ID": 78,
+    "Date": "11-01-2017",
+    "PeakDemand_MW": 21050,
+    "EnergyRequired_MU": 12424,
+    "trend": 20693.14949,
+    "yhat": 21085.96064
+  },
+  {
+    "ID": 79,
+    "Date": "12-01-2017",
+    "PeakDemand_MW": 19971,
+    "EnergyRequired_MU": 12267,
+    "trend": 20743.86973,
+    "yhat": 20878.52726
+  },
+  {
+    "ID": 80,
+    "Date": "01-01-2018",
+    "PeakDemand_MW": 21073,
+    "EnergyRequired_MU": 12430,
+    "trend": 20796.28064,
+    "yhat": 20953.90436
+  },
+  {
+    "ID": 81,
+    "Date": "02-01-2018",
+    "PeakDemand_MW": 21172,
+    "EnergyRequired_MU": 11561,
+    "trend": 20848.69155,
+    "yhat": 21584.06871
+  },
+  {
+    "ID": 82,
+    "Date": "03-01-2018",
+    "PeakDemand_MW": 22486,
+    "EnergyRequired_MU": 13836,
+    "trend": 20896.03044,
+    "yhat": 22012.14808
+  },
+  {
+    "ID": 83,
+    "Date": "04-01-2018",
+    "PeakDemand_MW": 23306,
+    "EnergyRequired_MU": 15200,
+    "trend": 20948.44135,
+    "yhat": 22265.09574
+  },
+  {
+    "ID": 84,
+    "Date": "05-01-2018",
+    "PeakDemand_MW": 23395,
+    "EnergyRequired_MU": 15200,
+    "trend": 20999.16158,
+    "yhat": 21811.60735
+  },
+  {
+    "ID": 85,
+    "Date": "06-01-2018",
+    "PeakDemand_MW": 21773,
+    "EnergyRequired_MU": 12697,
+    "trend": 21051.57251,
+    "yhat": 20991.56874
+  },
+  {
+    "ID": 86,
+    "Date": "07-01-2018",
+    "PeakDemand_MW": 19327,
+    "EnergyRequired_MU": 11947,
+    "trend": 21102.29276,
+    "yhat": 19115.35234
+  },
+  {
+    "ID": 87,
+    "Date": "08-01-2018",
+    "PeakDemand_MW": 20764,
+    "EnergyRequired_MU": 12518,
+    "trend": 21154.70369,
+    "yhat": 19731.37806
+  },
+  {
+    "ID": 88,
+    "Date": "09-01-2018",
+    "PeakDemand_MW": 22455,
+    "EnergyRequired_MU": 13615,
+    "trend": 21207.11461,
+    "yhat": 19980.82267
+  },
+  {
+    "ID": 89,
+    "Date": "10-01-2018",
+    "PeakDemand_MW": 23864,
+    "EnergyRequired_MU": 15246,
+    "trend": 21257.83486,
+    "yhat": 21081.64892
+  },
+  {
+    "ID": 90,
+    "Date": "11-01-2018",
+    "PeakDemand_MW": 22468,
+    "EnergyRequired_MU": 13058,
+    "trend": 21310.24578,
+    "yhat": 21745.80886
+  },
+  {
+    "ID": 91,
+    "Date": "12-01-2018",
+    "PeakDemand_MW": 21151,
+    "EnergyRequired_MU": 12505,
+    "trend": 21360.96603,
+    "yhat": 21644.87034
+  },
+  {
+    "ID": 92,
+    "Date": "01-01-2019",
+    "PeakDemand_MW": 20242,
+    "EnergyRequired_MU": 12201,
+    "trend": 21413.37695,
+    "yhat": 21494.72434
+  },
+  {
+    "ID": 93,
+    "Date": "02-01-2019",
+    "PeakDemand_MW": 21079,
+    "EnergyRequired_MU": 11374,
+    "trend": 21465.78788,
+    "yhat": 22171.12845
+  },
+  {
+    "ID": 94,
+    "Date": "03-01-2019",
+    "PeakDemand_MW": 22361,
+    "EnergyRequired_MU": 13644,
+    "trend": 21513.12678,
+    "yhat": 22374.7328
+  },
+  {
+    "ID": 95,
+    "Date": "04-01-2019",
+    "PeakDemand_MW": 23158,
+    "EnergyRequired_MU": 14319,
+    "trend": 21565.53771,
+    "yhat": 23180.03877
+  },
+  {
+    "ID": 96,
+    "Date": "05-01-2019",
+    "PeakDemand_MW": 23621,
+    "EnergyRequired_MU": 14989,
+    "trend": 21616.25797,
+    "yhat": 22389.40796
+  },
+  {
+    "ID": 97,
+    "Date": "06-01-2019",
+    "PeakDemand_MW": 22912,
+    "EnergyRequired_MU": 13420,
+    "trend": 21668.6689,
+    "yhat": 21719.7658
+  },
+  {
+    "ID": 98,
+    "Date": "07-01-2019",
+    "PeakDemand_MW": 20568,
+    "EnergyRequired_MU": 12151,
+    "trend": 21719.38915,
+    "yhat": 19735.85423
+  },
+  {
+    "ID": 99,
+    "Date": "08-01-2019",
+    "PeakDemand_MW": 20257,
+    "EnergyRequired_MU": 11849,
+    "trend": 21771.80009,
+    "yhat": 20203.34205
+  },
+  {
+    "ID": 100,
+    "Date": "09-01-2019",
+    "PeakDemand_MW": 18813,
+    "EnergyRequired_MU": 11411,
+    "trend": 21824.21103,
+    "yhat": 20458.90717
+  },
+  {
+    "ID": 101,
+    "Date": "10-01-2019",
+    "PeakDemand_MW": 20750,
+    "EnergyRequired_MU": 11909,
+    "trend": 21874.93129,
+    "yhat": 21809.01079
+  },
+  {
+    "ID": 102,
+    "Date": "11-01-2019",
+    "PeakDemand_MW": 21471,
+    "EnergyRequired_MU": 12077,
+    "trend": 21927.34223,
+    "yhat": 22406.54294
+  },
+  {
+    "ID": 103,
+    "Date": "12-01-2019",
+    "PeakDemand_MW": 22411,
+    "EnergyRequired_MU": 13254,
+    "trend": 21990.63924,
+    "yhat": 22420.90245
+  },
+  {
+    "ID": 104,
+    "Date": "01-01-2020",
+    "PeakDemand_MW": 22975,
+    "EnergyRequired_MU": 13178,
+    "trend": 22056.04615,
+    "yhat": 22057.06482
+  },
+  {
+    "ID": 105,
+    "Date": "02-01-2020",
+    "PeakDemand_MW": 24550,
+    "EnergyRequired_MU": 13351,
+    "trend": 22121.45306,
+    "yhat": 22794.07024
+  },
+  {
+    "ID": 106,
+    "Date": "03-01-2020",
+    "PeakDemand_MW": 24012,
+    "EnergyRequired_MU": 13259,
+    "trend": 22182.64017,
+    "yhat": 23823.84223
+  },
+  {
+    "ID": 107,
+    "Date": "04-01-2020",
+    "PeakDemand_MW": 18695,
+    "EnergyRequired_MU": 11442,
+    "trend": 22248.04708,
+    "yhat": 22981.82522
+  },
+  {
+    "ID": 108,
+    "Date": "05-01-2020",
+    "PeakDemand_MW": 21501,
+    "EnergyRequired_MU": 12984,
+    "trend": 22340.24698,
+    "yhat": 23225.96405
+  },
+  {
+    "ID": 109,
+    "Date": "06-01-2020",
+    "PeakDemand_MW": 19429,
+    "EnergyRequired_MU": 10824,
+    "trend": 22435.5202,
+    "yhat": 22148.99437
+  },
+  {
+    "ID": 110,
+    "Date": "07-01-2020",
+    "PeakDemand_MW": 17792,
+    "EnergyRequired_MU": 11146,
+    "trend": 22527.72009,
+    "yhat": 20522.32421
+  },
+  {
+    "ID": 111,
+    "Date": "08-01-2020",
+    "PeakDemand_MW": 18111,
+    "EnergyRequired_MU": 10802,
+    "trend": 22622.99331,
+    "yhat": 21483.80444
+  },
+  {
+    "ID": 112,
+    "Date": "09-01-2020",
+    "PeakDemand_MW": 19326,
+    "EnergyRequired_MU": 11553,
+    "trend": 22748.14501,
+    "yhat": 21811.67362
+  },
+  {
+    "ID": 113,
+    "Date": "10-01-2020",
+    "PeakDemand_MW": 20635,
+    "EnergyRequired_MU": 12517,
+    "trend": 22869.25956,
+    "yhat": 22484.11082
+  },
+  {
+    "ID": 114,
+    "Date": "11-01-2020",
+    "PeakDemand_MW": 22903,
+    "EnergyRequired_MU": 12753,
+    "trend": 22994.41125,
+    "yhat": 23345.48887
+  },
+  {
+    "ID": 115,
+    "Date": "12-01-2020",
+    "PeakDemand_MW": 23537,
+    "EnergyRequired_MU": 13694,
+    "trend": 23115.5258,
+    "yhat": 23098.2219
+  },
+  {
+    "ID": 116,
+    "Date": "01-01-2021",
+    "PeakDemand_MW": 24058,
+    "EnergyRequired_MU": 13985,
+    "trend": 23240.6775,
+    "yhat": 23470.46678
+  },
+  {
+    "ID": 117,
+    "Date": "02-01-2021",
+    "PeakDemand_MW": 24122,
+    "EnergyRequired_MU": 13025,
+    "trend": 23368.75346,
+    "yhat": 24131.36032
+  },
+  {
+    "ID": 118,
+    "Date": "03-01-2021",
+    "PeakDemand_MW": 25576,
+    "EnergyRequired_MU": 15956,
+    "trend": 23484.43498,
+    "yhat": 24860.49708
+  },
+  {
+    "ID": 119,
+    "Date": "04-01-2021",
+    "PeakDemand_MW": 25653,
+    "EnergyRequired_MU": 15636,
+    "trend": 23612.51094,
+    "yhat": 24635.50332
+  },
+  {
+    "ID": 120,
+    "Date": "05-01-2021",
+    "PeakDemand_MW": 23746,
+    "EnergyRequired_MU": 14465,
+    "trend": 23736.45542,
+    "yhat": 24586.40123
+  },
+  {
+    "ID": 121,
+    "Date": "06-01-2021",
+    "PeakDemand_MW": 21141,
+    "EnergyRequired_MU": 13606,
+    "trend": 23864.53138,
+    "yhat": 23691.94688
+  },
+  {
+    "ID": 122,
+    "Date": "07-01-2021",
+    "PeakDemand_MW": 24097,
+    "EnergyRequired_MU": 13466,
+    "trend": 23988.47586,
+    "yhat": 21994.25606
+  },
+  {
+    "ID": 123,
+    "Date": "08-01-2021",
+    "PeakDemand_MW": 24428,
+    "EnergyRequired_MU": 14311,
+    "trend": 24116.55182,
+    "yhat": 22836.38524
+  },
+  {
+    "ID": 124,
+    "Date": "09-01-2021",
+    "PeakDemand_MW": 21502,
+    "EnergyRequired_MU": 12704,
+    "trend": 24244.62779,
+    "yhat": 23161.34126
+  },
+  {
+    "ID": 125,
+    "Date": "10-01-2021",
+    "PeakDemand_MW": 22892,
+    "EnergyRequired_MU": 13853,
+    "trend": 24368.57227,
+    "yhat": 24085.9377
+  },
+  {
+    "ID": 126,
+    "Date": "11-01-2021",
+    "PeakDemand_MW": 25215,
+    "EnergyRequired_MU": 14172,
+    "trend": 24496.64823,
+    "yhat": 24889.45937
+  },
+  {
+    "ID": 127,
+    "Date": "12-01-2021",
+    "PeakDemand_MW": 24429,
+    "EnergyRequired_MU": 14148,
+    "trend": 24620.59271,
+    "yhat": 24755.25024
+  },
+  {
+    "ID": 128,
+    "Date": "01-01-2022",
+    "PeakDemand_MW": 25560,
+    "EnergyRequired_MU": 14616,
+    "trend": 24748.66867,
+    "yhat": 24906.29239
+  },
+  {
+    "ID": 129,
+    "Date": "02-01-2022",
+    "PeakDemand_MW": 26316,
+    "EnergyRequired_MU": 14385,
+    "trend": 24876.74463,
+    "yhat": 25612.12179
+  },
+  {
+    "ID": 130,
+    "Date": "03-01-2022",
+    "PeakDemand_MW": 28075,
+    "EnergyRequired_MU": 17459,
+    "trend": 24992.42615,
+    "yhat": 26108.54379
+  },
+  {
+    "ID": 131,
+    "Date": "04-01-2022",
+    "PeakDemand_MW": 30935,
+    "EnergyRequired_MU": 17827,
+    "trend": 25120.50211,
+    "yhat": 26437.1565
+  },
+  {
+    "ID": 132,
+    "Date": "05-01-2022",
+    "PeakDemand_MW": 27969,
+    "EnergyRequired_MU": 17644,
+    "trend": 25244.44659,
+    "yhat": 26056.89236
+  },
+  {
+    "ID": 133,
+    "Date": "06-01-2022",
+    "PeakDemand_MW": 26972,
+    "EnergyRequired_MU": 15516,
+    "trend": 25372.52255,
+    "yhat": 25312.51879
+  },
+  {
+    "ID": 134,
+    "Date": "07-01-2022",
+    "PeakDemand_MW": 22540,
+    "EnergyRequired_MU": 13691,
+    "trend": 25496.46703,
+    "yhat": 23509.52661
+  },
+  {
+    "ID": 135,
+    "Date": "08-01-2022",
+    "PeakDemand_MW": 24186,
+    "EnergyRequired_MU": 14004,
+    "trend": 25624.54299,
+    "yhat": 24201.21737
+  },
+  {
+    "ID": 136,
+    "Date": "09-01-2022",
+    "PeakDemand_MW": 22574,
+    "EnergyRequired_MU": 13428,
+    "trend": 25752.61896,
+    "yhat": 24526.32701
+  },
+  {
+    "ID": 137,
+    "Date": "10-01-2022",
+    "PeakDemand_MW": 22513,
+    "EnergyRequired_MU": 13366,
+    "trend": 25876.56344,
+    "yhat": 25700.37749
+  },
+  {
+    "ID": 138,
+    "Date": "11-01-2022",
+    "PeakDemand_MW": 25936,
+    "EnergyRequired_MU": 15228,
+    "trend": 26004.6394,
+    "yhat": 26440.20248
+  },
+  {
+    "ID": 139,
+    "Date": "12-01-2022",
+    "PeakDemand_MW": 27234,
+    "EnergyRequired_MU": 16365,
+    "trend": 26128.58388,
+    "yhat": 26412.48819
+  },
+  {
+    "ID": 140,
+    "Date": "01-01-2023",
+    "PeakDemand_MW": 27860,
+    "EnergyRequired_MU": 16661,
+    "trend": 26256.65984,
+    "yhat": 26338.00723
+  },
+  {
+    "ID": 141,
+    "Date": "02-01-2023",
+    "PeakDemand_MW": 28519,
+    "EnergyRequired_MU": 15832,
+    "trend": 26384.7358,
+    "yhat": 27090.07638
+  },
+  {
+    "ID": 142,
+    "Date": "03-01-2023",
+    "PeakDemand_MW": 28576,
+    "EnergyRequired_MU": 17010,
+    "trend": 26500.41732,
+    "yhat": 27362.02334
+  },
+  {
+    "ID": 143,
+    "Date": "04-01-2023",
+    "PeakDemand_MW": 28584,
+    "EnergyRequired_MU": 17458,
+    "trend": 26628.49328,
+    "yhat": 28242.99433
+  },
+  {
+    "ID": 144,
+    "Date": "05-01-2023",
+    "PeakDemand_MW": 28160,
+    "EnergyRequired_MU": 17719,
+    "trend": 26752.43776,
+    "yhat": 27525.58775
+  },
+  {
+    "ID": 145,
+    "Date": "06-01-2023",
+    "PeakDemand_MW": 28546,
+    "EnergyRequired_MU": 18029,
+    "trend": 26880.51372,
+    "yhat": 26931.61062
+  },
+  {
+    "ID": 146,
+    "Date": "07-01-2023",
+    "PeakDemand_MW": 22656,
+    "EnergyRequired_MU": 15308,
+    "trend": 27004.4582,
+    "yhat": 25020.92327
+  },
+  {
+    "ID": 147,
+    "Date": "07-31-2023",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 27128.40268,
+    "yhat": 24963.94352
+  },
+  {
+    "ID": 148,
+    "Date": "08-31-2023",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 27256.47864,
+    "yhat": 25378.48513
+  },
+  {
+    "ID": 149,
+    "Date": "09-30-2023",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 27380.42312,
+    "yhat": 27791.11684
+  },
+  {
+    "ID": 150,
+    "Date": "10-31-2023",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 27508.49908,
+    "yhat": 28168.38953
+  },
+  {
+    "ID": 151,
+    "Date": "11-30-2023",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 27632.44356,
+    "yhat": 28616.0014
+  },
+  {
+    "ID": 152,
+    "Date": "12-31-2023",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 27760.51953,
+    "yhat": 27401.14659
+  },
+  {
+    "ID": 153,
+    "Date": "01-31-2024",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 27888.59549,
+    "yhat": 28406.02208
+  },
+  {
+    "ID": 154,
+    "Date": "02-29-2024",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 28008.40849,
+    "yhat": 28621.16338
+  },
+  {
+    "ID": 155,
+    "Date": "03-31-2024",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 28136.48445,
+    "yhat": 30052.74581
+  },
+  {
+    "ID": 156,
+    "Date": "04-30-2024",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 28260.42893,
+    "yhat": 28992.4231
+  },
+  {
+    "ID": 157,
+    "Date": "05-31-2024",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 28388.50489,
+    "yhat": 28549.10652
+  },
+  {
+    "ID": 158,
+    "Date": "06-30-2024",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 28512.44937,
+    "yhat": 26528.47645
+  },
+  {
+    "ID": 159,
+    "Date": "07-31-2024",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 28640.52533,
+    "yhat": 26925.17261
+  },
+  {
+    "ID": 160,
+    "Date": "08-31-2024",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 28768.60129,
+    "yhat": 27268.45577
+  },
+  {
+    "ID": 161,
+    "Date": "09-30-2024",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 28892.54577,
+    "yhat": 28940.58228
+  },
+  {
+    "ID": 162,
+    "Date": "10-31-2024",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 29020.62174,
+    "yhat": 29544.21108
+  },
+  {
+    "ID": 163,
+    "Date": "11-30-2024",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 29144.56622,
+    "yhat": 29718.13283
+  },
+  {
+    "ID": 164,
+    "Date": "12-31-2024",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 29272.64218,
+    "yhat": 29189.34617
+  },
+  {
+    "ID": 165,
+    "Date": "01-31-2025",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 29400.71814,
+    "yhat": 30038.05022
+  },
+  {
+    "ID": 166,
+    "Date": "02-28-2025",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 29516.39965,
+    "yhat": 29886.18155
+  },
+  {
+    "ID": 167,
+    "Date": "03-31-2025",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 29644.47562,
+    "yhat": 31866.13234
+  },
+  {
+    "ID": 168,
+    "Date": "04-30-2025",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 29768.4201,
+    "yhat": 30457.337
+  },
+  {
+    "ID": 169,
+    "Date": "05-31-2025",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 29896.49606,
+    "yhat": 30164.89443
+  },
+  {
+    "ID": 170,
+    "Date": "06-30-2025",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 30020.44054,
+    "yhat": 28032.22407
+  },
+  {
+    "ID": 171,
+    "Date": "07-31-2025",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 30148.5165,
+    "yhat": 28284.72077
+  },
+  {
+    "ID": 172,
+    "Date": "08-31-2025",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 30276.59246,
+    "yhat": 28645.94491
+  },
+  {
+    "ID": 173,
+    "Date": "09-30-2025",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 30400.53694,
+    "yhat": 30566.08929
+  },
+  {
+    "ID": 174,
+    "Date": "10-31-2025",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 30528.61291,
+    "yhat": 31097.20546
+  },
+  {
+    "ID": 175,
+    "Date": "11-30-2025",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 30652.55739,
+    "yhat": 31366.21021
+  },
+  {
+    "ID": 176,
+    "Date": "12-31-2025",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 30780.63335,
+    "yhat": 30609.11107
+  },
+  {
+    "ID": 177,
+    "Date": "01-31-2026",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 30908.70931,
+    "yhat": 31508.32442
+  },
+  {
+    "ID": 178,
+    "Date": "02-28-2026",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 31024.39082,
+    "yhat": 31157.28526
+  },
+  {
+    "ID": 179,
+    "Date": "03-31-2026",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 31152.46679,
+    "yhat": 33682.86814
+  },
+  {
+    "ID": 180,
+    "Date": "04-30-2026",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 31276.41127,
+    "yhat": 31920.27117
+  },
+  {
+    "ID": 181,
+    "Date": "05-31-2026",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 31404.48723,
+    "yhat": 31778.86626
+  },
+  {
+    "ID": 182,
+    "Date": "06-30-2026",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 31528.43171,
+    "yhat": 29532.21151
+  },
+  {
+    "ID": 183,
+    "Date": "07-31-2026",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 31656.50767,
+    "yhat": 29642.93698
+  },
+  {
+    "ID": 184,
+    "Date": "08-31-2026",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 31784.58363,
+    "yhat": 30027.93546
+  },
+  {
+    "ID": 185,
+    "Date": "09-30-2026",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 31908.52811,
+    "yhat": 32195.0152
+  },
+  {
+    "ID": 186,
+    "Date": "10-31-2026",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 32036.60407,
+    "yhat": 32650.67663
+  },
+  {
+    "ID": 187,
+    "Date": "11-30-2026",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 32160.54855,
+    "yhat": 33010.91484
+  },
+  {
+    "ID": 188,
+    "Date": "12-31-2026",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 32288.62452,
+    "yhat": 32025.04661
+  },
+  {
+    "ID": 189,
+    "Date": "01-31-2027",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 32416.70048,
+    "yhat": 32976.30098
+  },
+  {
+    "ID": 190,
+    "Date": "02-28-2027",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 32532.38199,
+    "yhat": 32434.6714
+  },
+  {
+    "ID": 191,
+    "Date": "03-31-2027",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 32660.45796,
+    "yhat": 35502.66055
+  },
+  {
+    "ID": 192,
+    "Date": "04-30-2027",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 32784.40244,
+    "yhat": 33381.17068
+  },
+  {
+    "ID": 193,
+    "Date": "05-31-2027",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 32912.4784,
+    "yhat": 33390.91808
+  },
+  {
+    "ID": 194,
+    "Date": "06-30-2027",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 33036.42288,
+    "yhat": 31028.49144
+  },
+  {
+    "ID": 195,
+    "Date": "07-31-2027",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 33164.49884,
+    "yhat": 31000.03968
+  },
+  {
+    "ID": 196,
+    "Date": "08-31-2027",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 33292.5748,
+    "yhat": 31414.58129
+  },
+  {
+    "ID": 197,
+    "Date": "09-30-2027",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 33416.51928,
+    "yhat": 33827.213
+  },
+  {
+    "ID": 198,
+    "Date": "10-31-2027",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 33544.59524,
+    "yhat": 34204.48569
+  },
+  {
+    "ID": 199,
+    "Date": "11-30-2027",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 33668.53972,
+    "yhat": 34652.09756
+  },
+  {
+    "ID": 200,
+    "Date": "12-31-2027",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 33796.61569,
+    "yhat": 33437.24275
+  },
+  {
+    "ID": 201,
+    "Date": "01-31-2028",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 33924.69165,
+    "yhat": 34442.11824
+  },
+  {
+    "ID": 202,
+    "Date": "02-29-2028",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 34044.50465,
+    "yhat": 34657.25954
+  },
+  {
+    "ID": 203,
+    "Date": "03-31-2028",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 34172.58061,
+    "yhat": 36088.84197
+  },
+  {
+    "ID": 204,
+    "Date": "04-30-2028",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 34296.52509,
+    "yhat": 35028.51926
+  },
+  {
+    "ID": 205,
+    "Date": "05-31-2028",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 34424.60105,
+    "yhat": 34585.20268
+  },
+  {
+    "ID": 206,
+    "Date": "06-30-2028",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 34548.54553,
+    "yhat": 32564.57261
+  },
+  {
+    "ID": 207,
+    "Date": "07-31-2028",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 34676.62149,
+    "yhat": 32961.26877
+  },
+  {
+    "ID": 208,
+    "Date": "08-31-2028",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 34804.69745,
+    "yhat": 33304.55193
+  },
+  {
+    "ID": 209,
+    "Date": "09-30-2028",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 34928.64193,
+    "yhat": 34976.67844
+  },
+  {
+    "ID": 210,
+    "Date": "10-31-2028",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 35056.7179,
+    "yhat": 35580.30724
+  },
+  {
+    "ID": 211,
+    "Date": "11-30-2028",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 35180.66238,
+    "yhat": 35754.22899
+  },
+  {
+    "ID": 212,
+    "Date": "12-31-2028",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 35308.73834,
+    "yhat": 35225.44233
+  },
+  {
+    "ID": 213,
+    "Date": "01-31-2029",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 35436.8143,
+    "yhat": 36074.14638
+  },
+  {
+    "ID": 214,
+    "Date": "02-28-2029",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 35552.49581,
+    "yhat": 35922.27771
+  },
+  {
+    "ID": 215,
+    "Date": "03-31-2029",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 35680.57178,
+    "yhat": 37902.2285
+  },
+  {
+    "ID": 216,
+    "Date": "04-30-2029",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 35804.51626,
+    "yhat": 36493.43316
+  },
+  {
+    "ID": 217,
+    "Date": "05-31-2029",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 35932.59222,
+    "yhat": 36200.99059
+  },
+  {
+    "ID": 218,
+    "Date": "06-30-2029",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 36056.5367,
+    "yhat": 34068.32023
+  },
+  {
+    "ID": 219,
+    "Date": "07-31-2029",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 36184.61266,
+    "yhat": 34320.81693
+  },
+  {
+    "ID": 220,
+    "Date": "08-31-2029",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 36312.68862,
+    "yhat": 34682.04107
+  },
+  {
+    "ID": 221,
+    "Date": "09-30-2029",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 36436.6331,
+    "yhat": 36602.18545
+  },
+  {
+    "ID": 222,
+    "Date": "10-31-2029",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 36564.70907,
+    "yhat": 37133.30162
+  },
+  {
+    "ID": 223,
+    "Date": "11-30-2029",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 36688.65355,
+    "yhat": 37402.30637
+  },
+  {
+    "ID": 224,
+    "Date": "12-31-2029",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 36816.72951,
+    "yhat": 36645.20723
+  },
+  {
+    "ID": 225,
+    "Date": "01-31-2030",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 36944.80547,
+    "yhat": 37544.42058
+  },
+  {
+    "ID": 226,
+    "Date": "02-28-2030",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 37060.48698,
+    "yhat": 37193.38142
+  },
+  {
+    "ID": 227,
+    "Date": "03-31-2030",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 37188.56295,
+    "yhat": 39718.9643
+  },
+  {
+    "ID": 228,
+    "Date": "04-30-2030",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 37312.50743,
+    "yhat": 37956.36733
+  },
+  {
+    "ID": 229,
+    "Date": "05-31-2030",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 37440.58339,
+    "yhat": 37814.96242
+  },
+  {
+    "ID": 230,
+    "Date": "06-30-2030",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 37564.52787,
+    "yhat": 35568.30767
+  },
+  {
+    "ID": 231,
+    "Date": "07-31-2030",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 37692.60383,
+    "yhat": 35679.03314
+  },
+  {
+    "ID": 232,
+    "Date": "08-31-2030",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 37820.67979,
+    "yhat": 36064.03162
+  },
+  {
+    "ID": 233,
+    "Date": "09-30-2030",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 37944.62427,
+    "yhat": 38231.11136
+  },
+  {
+    "ID": 234,
+    "Date": "10-31-2030",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 38072.70023,
+    "yhat": 38686.77279
+  },
+  {
+    "ID": 235,
+    "Date": "11-30-2030",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 38196.64471,
+    "yhat": 39047.011
+  },
+  {
+    "ID": 236,
+    "Date": "12-31-2030",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 38324.72068,
+    "yhat": 38061.14277
+  },
+  {
+    "ID": 237,
+    "Date": "01-31-2031",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 38452.79664,
+    "yhat": 39012.39714
+  },
+  {
+    "ID": 238,
+    "Date": "02-28-2031",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 38568.47815,
+    "yhat": 38470.76756
+  },
+  {
+    "ID": 239,
+    "Date": "03-31-2031",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 38696.55412,
+    "yhat": 41538.75671
+  },
+  {
+    "ID": 240,
+    "Date": "04-30-2031",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 38820.4986,
+    "yhat": 39417.26684
+  },
+  {
+    "ID": 241,
+    "Date": "05-31-2031",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 38948.57456,
+    "yhat": 39427.01424
+  },
+  {
+    "ID": 242,
+    "Date": "06-30-2031",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 39072.51904,
+    "yhat": 37064.5876
+  },
+  {
+    "ID": 243,
+    "Date": "07-31-2031",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 39200.595,
+    "yhat": 37036.13584
+  },
+  {
+    "ID": 244,
+    "Date": "08-31-2031",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 39328.67096,
+    "yhat": 37450.67745
+  },
+  {
+    "ID": 245,
+    "Date": "09-30-2031",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 39452.61544,
+    "yhat": 39863.30916
+  },
+  {
+    "ID": 246,
+    "Date": "10-31-2031",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 39580.6914,
+    "yhat": 40240.58185
+  },
+  {
+    "ID": 247,
+    "Date": "11-30-2031",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 39704.63588,
+    "yhat": 40688.19372
+  },
+  {
+    "ID": 248,
+    "Date": "12-31-2031",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 39832.71185,
+    "yhat": 39473.33891
+  },
+  {
+    "ID": 249,
+    "Date": "01-31-2032",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 39960.78781,
+    "yhat": 40478.2144
+  },
+  {
+    "ID": 250,
+    "Date": "02-29-2032",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 40080.60081,
+    "yhat": 40693.3557
+  },
+  {
+    "ID": 251,
+    "Date": "03-31-2032",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 40208.67677,
+    "yhat": 42124.93813
+  },
+  {
+    "ID": 252,
+    "Date": "04-30-2032",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 40332.62125,
+    "yhat": 41064.61542
+  },
+  {
+    "ID": 253,
+    "Date": "05-31-2032",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 40460.69721,
+    "yhat": 40621.29884
+  },
+  {
+    "ID": 254,
+    "Date": "06-30-2032",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 40584.64169,
+    "yhat": 38600.66877
+  },
+  {
+    "ID": 255,
+    "Date": "07-31-2032",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 40712.71765,
+    "yhat": 38997.36493
+  },
+  {
+    "ID": 256,
+    "Date": "08-31-2032",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 40840.79361,
+    "yhat": 39340.64809
+  },
+  {
+    "ID": 257,
+    "Date": "09-30-2032",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 40964.73809,
+    "yhat": 41012.7746
+  },
+  {
+    "ID": 258,
+    "Date": "10-31-2032",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 41092.81406,
+    "yhat": 41616.4034
+  },
+  {
+    "ID": 259,
+    "Date": "11-30-2032",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 41216.75854,
+    "yhat": 41790.32515
+  },
+  {
+    "ID": 260,
+    "Date": "12-31-2032",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 41344.8345,
+    "yhat": 41261.53849
+  },
+  {
+    "ID": 261,
+    "Date": "01-31-2033",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 41472.91046,
+    "yhat": 42110.24254
+  },
+  {
+    "ID": 262,
+    "Date": "02-28-2033",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 41588.59197,
+    "yhat": 41958.37387
+  },
+  {
+    "ID": 263,
+    "Date": "03-31-2033",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 41716.66794,
+    "yhat": 43938.32466
+  },
+  {
+    "ID": 264,
+    "Date": "04-30-2033",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 41840.61242,
+    "yhat": 42529.52932
+  },
+  {
+    "ID": 265,
+    "Date": "05-31-2033",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 41968.68838,
+    "yhat": 42237.08675
+  },
+  {
+    "ID": 266,
+    "Date": "06-30-2033",
+    "PeakDemand_MW": 0,
+    "EnergyRequired_MU": 0,
+    "trend": 42092.63286,
+    "yhat": 40104.41639
+  }
+]
