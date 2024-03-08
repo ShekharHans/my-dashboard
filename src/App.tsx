@@ -151,11 +151,11 @@ const Dashboard: React.FC = () => {
             ) : (
               <div className='p-8'>
                 <StatisticalData data={data} />
+                <Chart data={data} chartType={chartType} />
                 <div className='flex gap-4 my-8'>
                   <MixedBarChart data={data} />
                   <PieChart data={data} />
                 </div>
-                <Chart data={data} chartType={chartType} />
               </div>
             )}
           </>
