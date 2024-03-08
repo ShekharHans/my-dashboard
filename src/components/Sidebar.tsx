@@ -14,7 +14,7 @@ const Sidebar: React.FC<SidebarProps> = ({ handleChartTypeChange }) => {
     };
 
     return (
-        <aside className="flex h-screen w-64 flex-col overflow-y-auto border-r bg-white px-5 py-8 sidebar">
+        <aside className="flex h-[100vh] w-64 flex-col overflow-y-auto border-r bg-white px-5 py-8 sidebar">
             <div className="mt-6 flex flex-1 flex-col justify-between">
                 <nav className="-mx-3 space-y-6 ">
                     <div className="space-y-3 ">
@@ -30,7 +30,7 @@ const Sidebar: React.FC<SidebarProps> = ({ handleChartTypeChange }) => {
                     </div>
                     
                 </nav>
-                <div className="mt-6">
+                <div className=" bottom-0 relative">
 
                     <div className="mt-6 flex items-center justify-between">
                         <a href="#" className="flex items-center gap-x-2">

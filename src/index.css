@@ -22,3 +22,16 @@ body::-webkit-scrollbar{
   border-right-color: transparent;
   animation: loader-rotate 1s linear infinite;
 }
+.chart-container{
+  width: 800px !important;
+}
+.card {
+  border-radius: 6px;
+  background: #ededed;
+  border: 1px solid #878686d6;
+  padding: 20px;
+}
+.value{
+  color: #888;
+    font-size: 1rem;
+}

@@ -10,12 +10,12 @@ interface ChartProps {
 const Chart: React.FC<ChartProps> = ({ data, chartType }) => {
     let series: any[] = [];
     let options: ApexOptions = {};
-
+    const filteredData = data.filter(item => item.ID <= 146);
     if (chartType === 'PeakDemand') {
         series = [
             {
                 name: 'Peak Demand',
-                data: data.map((item) => ({
+                data: filteredData.map((item) => ({
                     x: new Date(item.Date),
                     y: item.PeakDemand_MW,
                 })),
@@ -24,8 +24,14 @@ const Chart: React.FC<ChartProps> = ({ data, chartType }) => {
         options = {
             chart: {
                 id: 'peak-demand-chart',
-                type: 'line',
+                type: 'area',
                 height: 400,
+                toolbar: {
+                    show: false
+                },
+            },
+            stroke: {
+                width: 3
             },
             xaxis: {
                 type: 'datetime',
@@ -59,6 +65,13 @@ const Chart: React.FC<ChartProps> = ({ data, chartType }) => {
                 id: 'mixed-peak-demand-chart',
                 type: 'line',
                 height: 400,
+                toolbar: {
+                    show: false
+                },
+            },
+            colors: ['#3b82f6', '#eb4034'],
+            stroke: {
+                width: 3
             },
             xaxis: {
                 type: 'datetime',
@@ -80,7 +93,7 @@ const Chart: React.FC<ChartProps> = ({ data, chartType }) => {
         series = [
             {
                 name: 'Energy Required',
-                data: data.map((item) => ({
+                data: filteredData.map((item) => ({
                     x: new Date(item.Date),
                     y: item.EnergyRequired_MU,
                 })),
@@ -89,9 +102,16 @@ const Chart: React.FC<ChartProps> = ({ data, chartType }) => {
         options = {
             chart: {
                 id: 'energy-chart',
-                type: 'line',
+                type: 'area',
                 height: 400,
+                toolbar: {
+                    show: false
+                },
             },
+            stroke: {
+                width: 3
+            },
+
             xaxis: {
                 type: 'datetime',
             },
@@ -124,6 +144,13 @@ const Chart: React.FC<ChartProps> = ({ data, chartType }) => {
                 id: 'mixed-energy-chart',
                 type: 'line',
                 height: 400,
+                toolbar: {
+                    show: false
+                },
+            },
+            colors: ['#3b82f6', '#eb4034'],
+            stroke: {
+                width: 3
             },
             xaxis: {
                 type: 'datetime',
