@@ -1,6 +1,4 @@
 import React from 'react';
-import YearlyChart from './PredictionPieChart';
-
 const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
     let minPeakDemand = Number.POSITIVE_INFINITY;
     let maxPeakDemand = Number.NEGATIVE_INFINITY;
@@ -39,9 +37,9 @@ const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
 
     return (
         <div className="flex gap-4 justify-between">
-            <div className="w-full grid grid-cols-2 sm:grid-cols-2 gap-4 bg-gray-100 p-10 rounded-md">
+            <div className="w-full grid grid-cols-6 sm:grid-cols-6 gap-4 bg-gray-100 p-10 rounded-md">
                 <div className="card">
-                    <p className="text-xl font-semibold capitalize text-gray-500">
+                    <p className="text-base font-semibold capitalize text-gray-500">
                         Max PeakDemand_MW:
                         <br />
                         <span className="value">
@@ -50,7 +48,7 @@ const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
                     </p>
                 </div>
                 <div className="card">
-                    <p className="text-xl font-semibold capitalize text-gray-500">
+                    <p className="text-base font-semibold capitalize text-gray-500">
                         Min PeakDemand_MW:
                         <br />
                         <span className="value">
@@ -59,7 +57,7 @@ const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
                     </p>
                 </div>
                 <div className="card">
-                    <p className="text-xl font-semibold capitalize text-gray-500">
+                    <p className="text-base font-semibold capitalize text-gray-500">
                         Max EnergyRequired_MU:
                         <br />
                         <span className="value">
@@ -68,7 +66,7 @@ const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
                     </p>
                 </div>
                 <div className="card">
-                    <p className="text-xl font-semibold capitalize text-gray-500">
+                    <p className="text-base font-semibold capitalize text-gray-500">
                         Min EnergyRequired_MU:
                         <br />
                         <span className="value">
@@ -77,7 +75,7 @@ const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
                     </p>
                 </div>
                 <div className="card">
-                    <p className="text-xl font-semibold capitalize text-gray-500">
+                    <p className="text-base font-semibold capitalize text-gray-500">
                         Avg PeakDemand_MW:
                         <br />
                         <span className="value">
@@ -86,7 +84,7 @@ const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
                     </p>
                 </div>
                 <div className="card">
-                    <p className="text-xl font-semibold capitalize text-gray-500">
+                    <p className=" text-base font-semibold capitalize text-gray-500">
                         Avg EnergyRequired_MU:
                         <br />
                         <span className="value">
@@ -94,11 +92,6 @@ const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
                         </span>
                     </p>
                 </div>
-
-            </div>
-            <div className=' bg-gray-100 p-10 rounded-md'>
-
-            <YearlyChart data={data} />
 
             </div>
 

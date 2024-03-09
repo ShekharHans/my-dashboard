@@ -30,6 +30,9 @@ const PieChart: React.FC<PieChartProps> = ({ data }) => {
         chart: {
             type: 'pie',
             width: 380,
+            toolbar: {
+                show: false
+            },
         },
         labels: ['Peak Demand', 'Energy Required'],
     };
@@ -40,7 +43,7 @@ const PieChart: React.FC<PieChartProps> = ({ data }) => {
     return (
         <div className='bg-gray-100 p-10 rounded-md'>
             <ReactApexChart options={options} series={series} type="pie" width={400} />
-            <p className="text-2xl font-semibold tracking-wider text-gray-500 flex justify-center mt-8">
+            <p className="text-2xl font-semibold text-gray-500 flex justify-center">
                 Ratio: {ratio.toFixed(2)}
             </p>
         </div>

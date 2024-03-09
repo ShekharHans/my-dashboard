@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import SidebarThree from './components/Sidebar';
 import Loader from './components/Loader';
 import Chart from './components/Chart';
 import { Button, ButtonGroup, FormControl, InputLabel, MenuItem, Select, SelectChangeEvent, TextField } from '@mui/material';
 import StatisticalData from './components/StatisticalData';
 import MixedBarChart from './components/MixedBarChart ';
 import PieChart from './components/PieChart';
+import YearlyChart from './components/YearlyChart';
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
 
 const Dashboard: React.FC = () => {
   const [data, setData] = useState<any[]>([]);
@@ -84,84 +86,88 @@ const Dashboard: React.FC = () => {
   };
 
   return (
-    <div className="flex">
-      <SidebarThree handleChartTypeChange={handleChartTypeChange} />
-      <div className="flex-1">
-        <div className='flex w-full justify-around border md:px-4 items-center space-x-2 py-5 bg-gray-100 p-10 rounded-md'>
-          <div className="dropdown-container w-40 h-12 items-center">
-            <FormControl fullWidth>
-              <InputLabel id="region-select-label">State</InputLabel>
-              <Select
-                labelId="region-select-label"
-                id="region-select"
-                value={selectedRegion}
-                onChange={handleRegionChange}
-              >
-                <MenuItem value="Himachal">Himachal</MenuItem>
-                <MenuItem value="Karnataka">Karnataka</MenuItem>
-                <MenuItem value="Maharastra">Maharastra</MenuItem>
-                <MenuItem value="WestBengal">West Bengal</MenuItem>
-              </Select>
-            </FormControl>
-          </div>
-          <div className="filter-container flex gap-4 h-12 ">
-            <ButtonGroup variant="outlined" aria-label="Basic button group">
-              <Button
-                onClick={() => handleFilterChange('1yr')}
-              >
-                1 Year
-              </Button>
-              <Button
-                onClick={() => handleFilterChange('6yr')}
-              >
-                6 Years
-              </Button>
-              <Button
-                onClick={() => handleFilterChange('all')}
-              >
-                All Times
-              </Button>
-            </ButtonGroup>
-            <div className='flex items-center gap-4'>
-              <TextField
-                label="Custom Year"
-                type="number"
-                value={customYear || ''}
-                onChange={handleCustomYearChange}
-                className='rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black'
-              />
-              <Button variant='outlined' onClick={() => handleFilterChange('custom')}>Apply</Button>
+    <>
+      <Navbar />
+      <div className="flex">
+        <Sidebar handleChartTypeChange={handleChartTypeChange} />
+        <div className="flex-1">
+          <div className='flex w-full justify-around border md:px-4 items-center space-x-2 py-5 bg-gray-100 p-10 rounded-md'>
+            <div className="dropdown-container w-40 h-12 items-center">
+              <FormControl fullWidth>
+                <InputLabel id="region-select-label">State</InputLabel>
+                <Select
+                  labelId="region-select-label"
+                  id="region-select"
+                  value={selectedRegion}
+                  onChange={handleRegionChange}
+                >
+                  <MenuItem value="Himachal">Himachal</MenuItem>
+                  <MenuItem value="Karnataka">Karnataka</MenuItem>
+                  <MenuItem value="Maharastra">Maharastra</MenuItem>
+                  <MenuItem value="WestBengal">West Bengal</MenuItem>
+                </Select>
+              </FormControl>
             </div>
+            <div className="filter-container flex gap-4 h-12 ">
+              <ButtonGroup variant="outlined" aria-label="Basic button group">
+                <Button
+                  onClick={() => handleFilterChange('1yr')}
+                >
+                  1 Year
+                </Button>
+                <Button
+                  onClick={() => handleFilterChange('6yr')}
+                >
+                  6 Years
+                </Button>
+                <Button
+                  onClick={() => handleFilterChange('all')}
+                >
+                  All Times
+                </Button>
+              </ButtonGroup>
+              <div className='flex items-center gap-4'>
+                <TextField
+                  label="Custom Year"
+                  type="number"
+                  value={customYear || ''}
+                  onChange={handleCustomYearChange}
+                  className='rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black'
+                />
+                <Button variant='outlined' onClick={() => handleFilterChange('custom')}>Apply</Button>
+              </div>
 
+            </div>
           </div>
-        </div>
-        {loading ? (
-          <Loader />
-        ) : (
-          <>
-            {data.length === 0 ? (
-              <div className=' w-full h-full flex justify-center items-center flex-col'>
-                <h1 className="text-6xl md:text-7xl lg:text-9xl font-bold tracking-wider text-gray-300">
-                  404
-                </h1>
-                <p className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-wider text-gray-500 mt-4">
-                  Sorry, the data you are looking for doesn&#x27;t exist.
-                </p>
-              </div>
-            ) : (
-              <div className='p-8'>
-                <StatisticalData data={data} />
-                <Chart data={data} chartType={chartType} />
-                <div className='flex gap-4 my-8'>
-                  <MixedBarChart data={data} />
-                  <PieChart data={data} />
+          {loading ? (
+            <Loader />
+          ) : (
+            <>
+              {data.length === 0 ? (
+                <div className=' w-full h-full flex justify-center items-center flex-col'>
+                  <h1 className="text-6xl md:text-7xl lg:text-9xl font-bold tracking-wider text-gray-300">
+                    404
+                  </h1>
+                  <p className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-wider text-gray-500 mt-4">
+                    Sorry, the data you are looking for doesn&#x27;t exist.
+                  </p>
                 </div>
-              </div>
-            )}
-          </>
-        )}
+              ) : (
+                <div className='p-8'>
+                  <StatisticalData data={data} />
+                  <YearlyChart data={data} />
+                  <Chart data={data} chartType={chartType} />
+                  <div className='flex gap-4 my-8 justify-around items-center'>
+                    <MixedBarChart data={data} />
+                    <PieChart data={data} />
+                  </div>
+                </div>
+              )}
+            </>
+          )}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

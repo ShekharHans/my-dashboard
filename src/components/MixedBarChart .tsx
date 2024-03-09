@@ -34,6 +34,9 @@ const MixedBarChart: React.FC<MixedBarChartProps> = ({ data }) => {
         chart: {
             type: 'bar',
             height: 350,
+            toolbar: {
+                show: false
+            },
         },
         plotOptions: {
             bar: {

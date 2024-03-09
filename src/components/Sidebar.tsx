@@ -1,5 +1,5 @@
 import React from 'react';
-import { BarChart, Wallet, LogIn } from 'lucide-react';
+import { BarChart, Wallet} from 'lucide-react';
 
 interface SidebarProps {
     handleChartTypeChange: (chartType: string) => void;
@@ -14,7 +14,7 @@ const Sidebar: React.FC<SidebarProps> = ({ handleChartTypeChange }) => {
     };
 
     return (
-        <aside className="flex h-[100vh] w-64 flex-col overflow-y-auto border-r bg-white px-5 py-8 sidebar">
+        <aside className="flex h-screen w-64 flex-col overflow-hidden border-r bg-white px-5 py-8 sidebar">
             <div className="mt-6 flex flex-1 flex-col justify-between">
                 <nav className="-mx-3 space-y-6 ">
                     <div className="space-y-3 ">
@@ -30,25 +30,7 @@ const Sidebar: React.FC<SidebarProps> = ({ handleChartTypeChange }) => {
                     </div>
                     
                 </nav>
-                <div className=" bottom-0 relative">
 
-                    <div className="mt-6 flex items-center justify-between">
-                        <a href="#" className="flex items-center gap-x-2">
-                            <img
-                                className="h-7 w-7 rounded-full object-cover"
-                                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                alt="avatar"
-                            />
-                            <span className="text-sm font-medium text-gray-700">Dan Abromov</span>
-                        </a>
-                        <a
-                            href="#"
-                            className="rotate-180 text-gray-800 transition-colors duration-200 hover:text-gray-900"
-                        >
-                            <LogIn className="h-5 w-5" />
-                        </a>
-                    </div>
-                </div>
             </div>
         </aside>
     )
