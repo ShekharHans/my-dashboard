@@ -8,10 +8,6 @@ import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 
 
-interface ChartProps {
-  data: any[];
-  chartType: string; // Add chartType prop to the interface
-}
 
 const Dashboard: React.FC = () => {
   const [data, setData] = useState<any[]>([]);

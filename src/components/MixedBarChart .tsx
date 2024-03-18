@@ -20,6 +20,7 @@ const MixedBarChart: React.FC<MixedBarChartProps> = ({ date, data }) => {
     const peakDemand = selectedData.PeakDemand_MW;
     const yhat = selectedData.yhat;
 
+    
     // Define series data for the bar chart
     const mixedBarSeries = [
         {

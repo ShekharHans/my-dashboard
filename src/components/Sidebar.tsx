@@ -1,5 +1,5 @@
 import React from 'react';
-import { BarChart, Wallet} from 'lucide-react';
+import { BarChart} from 'lucide-react';
 
 interface SidebarProps {
     handleChartTypeChange: (chartType: string) => void;
