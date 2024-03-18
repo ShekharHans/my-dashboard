@@ -62,7 +62,7 @@ const Chart: React.FC<ChartProps> = ({ data }) => {
     const mixedOptions: ApexOptions = {
         chart: {
             id: 'mixed-peak-demand-chart',
-            type: 'area',
+            type: 'line',
             height: 400,
             toolbar: {
                 show: false
@@ -84,6 +84,9 @@ const Chart: React.FC<ChartProps> = ({ data }) => {
             }
         },
         colors: ['#3b82f6', '#eb4034'],
+        dataLabels: {
+            enabled: false
+        },
         stroke: {
             width: 2
         },
