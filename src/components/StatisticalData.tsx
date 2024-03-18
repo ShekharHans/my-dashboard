@@ -1,11 +1,11 @@
 import React from 'react';
+
 const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
     let minPeakDemand = Number.POSITIVE_INFINITY;
     let maxPeakDemand = Number.NEGATIVE_INFINITY;
-    let minEnergyRequired = Number.POSITIVE_INFINITY;
-    let maxEnergyRequired = Number.NEGATIVE_INFINITY;
     let totalPeakDemand = 0;
-    let totalEnergyRequired = 0;
+    let totalTempC = 0;
+    let totalAverageInflation = 0;
 
     // Filter data till ID 146
     const filteredData = data.filter(item => item.ID <= 146);
@@ -21,26 +21,24 @@ const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
             }
             totalPeakDemand += item.PeakDemand_MW;
 
-            // EnergyRequired_MU
-            if (item.EnergyRequired_MU < minEnergyRequired) {
-                minEnergyRequired = item.EnergyRequired_MU;
-            }
-            if (item.EnergyRequired_MU > maxEnergyRequired) {
-                maxEnergyRequired = item.EnergyRequired_MU;
-            }
-            totalEnergyRequired += item.EnergyRequired_MU;
+            // Temp_C
+            totalTempC += item.Temp_C;
+
+            // Average_inflation
+            totalAverageInflation += item.Average_inflation;
         }
     }
 
     const avgPeakDemand = totalPeakDemand / filteredData.length;
-    const avgEnergyRequired = totalEnergyRequired / filteredData.length;
+    const avgTempC = totalTempC / filteredData.length;
+    const avgAverageInflation = totalAverageInflation / filteredData.length;
 
     return (
         <div className="flex gap-4 justify-between">
-            <div className="w-full grid grid-cols-6 sm:grid-cols-6 gap-4 bg-gray-100 p-10 rounded-md">
+            <div className="w-full grid grid-cols-5 sm:grid-cols-5 gap-4 bg-gray-100 p-10 rounded-md">
                 <div className="card">
                     <p className="text-base font-semibold capitalize text-gray-500">
-                        Max PeakDemand_MW:
+                        Max PeakDemand_MW :
                         <br />
                         <span className="value">
                             {maxPeakDemand !== Number.NEGATIVE_INFINITY ? maxPeakDemand : 'N/A'}
@@ -49,7 +47,7 @@ const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
                 </div>
                 <div className="card">
                     <p className="text-base font-semibold capitalize text-gray-500">
-                        Min PeakDemand_MW:
+                        Min PeakDemand_MW :
                         <br />
                         <span className="value">
                             {minPeakDemand !== Number.POSITIVE_INFINITY ? minPeakDemand : 'N/A'}
@@ -58,25 +56,7 @@ const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
                 </div>
                 <div className="card">
                     <p className="text-base font-semibold capitalize text-gray-500">
-                        Max EnergyRequired_MU:
-                        <br />
-                        <span className="value">
-                            {maxEnergyRequired !== Number.NEGATIVE_INFINITY ? maxEnergyRequired : 'N/A'}
-                        </span>
-                    </p>
-                </div>
-                <div className="card">
-                    <p className="text-base font-semibold capitalize text-gray-500">
-                        Min EnergyRequired_MU:
-                        <br />
-                        <span className="value">
-                            {minEnergyRequired !== Number.POSITIVE_INFINITY ? minEnergyRequired : 'N/A'}
-                        </span>
-                    </p>
-                </div>
-                <div className="card">
-                    <p className="text-base font-semibold capitalize text-gray-500">
-                        Avg PeakDemand_MW:
+                        Avg PeakDemand_MW :
                         <br />
                         <span className="value">
                             {!Number.isNaN(avgPeakDemand) ? avgPeakDemand.toFixed(2) : 'N/A'}
@@ -84,19 +64,25 @@ const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
                     </p>
                 </div>
                 <div className="card">
-                    <p className=" text-base font-semibold capitalize text-gray-500">
-                        Avg EnergyRequired_MU:
+                    <p className="text-base font-semibold capitalize text-gray-500">
+                        Avg Temp_C :
                         <br />
                         <span className="value">
-                            {!Number.isNaN(avgEnergyRequired) ? avgEnergyRequired.toFixed(2) : 'N/A'}
+                            {!Number.isNaN(avgTempC) ? avgTempC.toFixed(2) : 'N/A'}
                         </span>
                     </p>
                 </div>
-
+                <div className="card">
+                    <p className="text-base font-semibold capitalize text-gray-500">
+                        Avg Average_inflation :
+                        <br />
+                        <span className="value">
+                            {!Number.isNaN(avgAverageInflation) ? avgAverageInflation.toFixed(2) : 'N/A'}
+                        </span>
+                    </p>
+                </div>
             </div>
-
         </div>
-
     );
 };
 

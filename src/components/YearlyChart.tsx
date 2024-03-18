@@ -1,46 +1,52 @@
-import { ApexOptions } from 'apexcharts';
-import React from 'react';
-import ReactApexChart from 'react-apexcharts';
+import { ApexOptions } from "apexcharts";
+import React from "react";
+import ReactApexChart from "react-apexcharts";
 
-interface AreaChartProps {
+interface YearlyChartProps {
     data: {
         Date: string;
-        yearly: number;
+        yhat: number;
+        PeakDemand_MW: number;
     }[];
 }
 
-const YearlyChart: React.FC<AreaChartProps> = ({ data }) => {
-    // Extracting data for x-axis (Date) and y-axis (Yearly)
-    const dates = data.map(item => item.Date);
-    const yearlyValues = data.map(item => item.yearly);
+const YearlyChart: React.FC<YearlyChartProps> = ({ data }) => {
+    // Extracting data for x-axis (Date), yhat, and PeakDemand
+    const dates = data.map((item) => item.Date);
+    const yhatValues = data.map((item) => item.yhat);
+    const peakDemandValues = data.map((item) => item.PeakDemand_MW);
+
+    // Calculate accuracy ratio
+    const totalYhat = yhatValues.reduce((acc, val) => acc + val, 0);
+    const totalPeakDemand = peakDemandValues.reduce((acc, val) => acc + val, 0);
 
     // Area chart options
     const areaOptions: ApexOptions = {
         chart: {
-            type: 'area',
+            type: "area",
+            width: 600,
             height: 350,
             toolbar: {
-                show: false
+                show: false,
             },
         },
-        colors: ['#546E7A'],
+        colors: ["#546E7A"],
         stroke: {
-            width: 1
+            width: 1,
         },
         dataLabels: {
             enabled: false,
         },
         xaxis: {
-            type: 'datetime',
+            type: "datetime",
             categories: dates,
-
         },
         yaxis: {
             title: {
-                text: 'Yearly Value',
+                text: "Forcasted Value",
             },
             labels: {
-                show: false
+                show: false,
             },
         },
     };
@@ -48,49 +54,43 @@ const YearlyChart: React.FC<AreaChartProps> = ({ data }) => {
     // Area chart series data
     const areaSeries = [
         {
-            name: 'Yearly',
-            data: yearlyValues,
+            name: "Forcasted Value",
+            data: yhatValues,
         },
     ];
 
-    let positiveSum = 0;
-    let negativeSum = 0;
-
-    // Calculate the sums of positive and negative values
-    data.forEach(item => {
-        if (item.yearly > 0) {
-            positiveSum += item.yearly;
-        } else {
-            negativeSum += item.yearly;
-        }
-    });
-
-    // Calculate the ratio of positive to negative values
-    const positiveRatio = Math.abs(positiveSum / (positiveSum + Math.abs(negativeSum)));
-    const negativeRatio = Math.abs(negativeSum / (positiveSum + Math.abs(negativeSum)));
-
     // Pie chart options
-    const pieOptions = {
-        labels: ['Positive', 'Negative'],
-        colors: ['#1abc9c', '#e74c3c'],
-        dataLabels: {
-            enabled: true,
-            formatter: (val: number) => {
-                return val.toFixed(2);
+    const pieOptions: ApexOptions = {
+        chart: {
+            type: "pie",
+            width: 380,
+            toolbar: {
+                show: false,
             },
         },
+        labels: ["Peak Demand", "Forcasted Value"],
     };
 
     // Pie chart series data
-    const pieSeries = [positiveRatio, negativeRatio];
+    const pieSeries = [totalPeakDemand, totalYhat];
 
     return (
-        <div className='flex w-full gap-8 items-center justify-around mt-8'>
-            <div className=' bg-gray-100 p-10 rounded-md'>
-                <ReactApexChart options={pieOptions} series={pieSeries} type="pie" width={380} />
+        <div className="flex w-full gap-8 items-center justify-around mt-8">
+            <div className="w-[700px] bg-gray-100 p-10 rounded-md">
+                <ReactApexChart
+                    options={areaOptions}
+                    series={areaSeries}
+                    type="area"
+                    height={400}
+                />
             </div>
-            <div className='w-[700px]  bg-gray-100 p-10 rounded-md'>
-                <ReactApexChart options={areaOptions} series={areaSeries} type="area" height={400} />
+            <div className=" bg-gray-100 p-10 rounded-md">
+                <ReactApexChart
+                    options={pieOptions}
+                    series={pieSeries}
+                    type="pie"
+                    width={380}
+                />
             </div>
         </div>
     );

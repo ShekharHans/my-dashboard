@@ -3,11 +3,15 @@ import Loader from './components/Loader';
 import Chart from './components/Chart';
 import { Button, ButtonGroup, FormControl, InputLabel, MenuItem, Select, SelectChangeEvent, TextField } from '@mui/material';
 import StatisticalData from './components/StatisticalData';
-import MixedBarChart from './components/MixedBarChart ';
-import PieChart from './components/PieChart';
 import YearlyChart from './components/YearlyChart';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
+
+
+interface ChartProps {
+  data: any[];
+  chartType: string; // Add chartType prop to the interface
+}
 
 const Dashboard: React.FC = () => {
   const [data, setData] = useState<any[]>([]);
@@ -93,11 +97,11 @@ const Dashboard: React.FC = () => {
         <div className="flex-1">
           <div className='flex w-full justify-around border md:px-4 items-center space-x-2 py-5 bg-gray-100 p-10 rounded-md'>
             <div className="dropdown-container w-40 h-12 items-center">
-              <FormControl fullWidth>
-                <InputLabel id="region-select-label">State</InputLabel>
+              <FormControl sx={{ m: 1 }} variant="standard" fullWidth>
+                <InputLabel id="demo-simple-select-label">State</InputLabel>
                 <Select
-                  labelId="region-select-label"
-                  id="region-select"
+                  labelId="demo-simple-select-label"
+                  id="demo-simple-select"
                   value={selectedRegion}
                   onChange={handleRegionChange}
                 >
@@ -157,10 +161,6 @@ const Dashboard: React.FC = () => {
                   <StatisticalData data={data} />
                   <YearlyChart data={data} />
                   <Chart data={data} chartType={chartType} />
-                  <div className='flex gap-4 my-8 justify-around items-center'>
-                    <MixedBarChart data={data} />
-                    <PieChart data={data} />
-                  </div>
                 </div>
               )}
             </>
