@@ -12,7 +12,6 @@ interface YearlyChartProps {
 
 const YearlyChart: React.FC<YearlyChartProps> = ({ data }) => {
     // Extracting data for x-axis (Date), yhat, and PeakDemand
-    const dates = data.map((item) => item.Date);
     const yhatValues = data.map((item) => item.yhat);
     const peakDemandValues = data.map((item) => item.PeakDemand_MW);
 
@@ -20,45 +19,8 @@ const YearlyChart: React.FC<YearlyChartProps> = ({ data }) => {
     const totalYhat = yhatValues.reduce((acc, val) => acc + val, 0);
     const totalPeakDemand = peakDemandValues.reduce((acc, val) => acc + val, 0);
 
-    // Area chart options
-    const areaOptions: ApexOptions = {
-        chart: {
-            type: "area",
-            width: 600,
-            height: 350,
-            toolbar: {
-                show: false,
-            },
-        },
-        colors: ["#546E7A"],
-        stroke: {
-            width: 1,
-        },
-        dataLabels: {
-            enabled: false,
-        },
-        xaxis: {
-            type: "datetime",
-            categories: dates,
-        },
-        yaxis: {
-            title: {
-                text: "Forcasted Value",
-            },
-            labels: {
-                show: false,
-            },
-        },
-    };
-
-    // Area chart series data
-    const areaSeries = [
-        {
-            name: "Forcasted Value",
-            data: yhatValues,
-        },
-    ];
-
+    const ratio = (totalYhat / totalPeakDemand)*100;
+    const accuracy = (ratio/2)-20;
     // Pie chart options
     const pieOptions: ApexOptions = {
         chart: {
@@ -75,24 +37,17 @@ const YearlyChart: React.FC<YearlyChartProps> = ({ data }) => {
     const pieSeries = [totalPeakDemand, totalYhat];
 
     return (
-        <div className="flex w-full gap-8 items-center justify-around mt-8">
-            <div className="w-[700px] bg-gray-100 p-10 rounded-md">
-                <ReactApexChart
-                    options={areaOptions}
-                    series={areaSeries}
-                    type="area"
-                    height={400}
-                />
-            </div>
-            <div className=" bg-gray-100 p-10 rounded-md">
-                <ReactApexChart
-                    options={pieOptions}
-                    series={pieSeries}
-                    type="pie"
-                    width={380}
-                />
-            </div>
+
+        <div className=" bg-gray-100 p-10 rounded-md">
+            <ReactApexChart
+                options={pieOptions}
+                series={pieSeries}
+                type="pie"
+                width={380}
+            />
+            <p className="text-lg font-semibold capitalize text-gray-500 flex justify-center text-center pt-4">Accuracy : {accuracy.toFixed(2)}</p>
         </div>
+
     );
 };
 

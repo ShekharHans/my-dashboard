@@ -155,8 +155,12 @@ const Dashboard: React.FC = () => {
               ) : (
                 <div className='p-8'>
                   <StatisticalData data={data} />
-                  <YearlyChart data={data} />
-                  <Chart data={data} chartType={chartType} />
+                  <div className="flex w-full gap-4 items-center justify-around mt-8">
+                    <div className='w-[700px]'>
+                    <Chart data={data} chartType={chartType} />
+                    </div>
+                    <YearlyChart data={data} />
+                  </div>
                 </div>
               )}
             </>
