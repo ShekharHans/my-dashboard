@@ -159,7 +159,7 @@ const Dashboard: React.FC = () => {
                     <div className='w-[700px]'>
                     <Chart data={data} chartType={chartType} />
                     </div>
-                    <YearlyChart data={data} />
+                    <YearlyChart data={data} selectedRegion={selectedRegion}/>
                   </div>
                 </div>
               )}
