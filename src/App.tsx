@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Loader from './components/Loader';
 import Chart from './components/Chart';
-import { Button, ButtonGroup, FormControl, InputLabel, MenuItem, Select, SelectChangeEvent, TextField } from '@mui/material';
+import { Button,  FormControl, InputLabel, MenuItem, Select, SelectChangeEvent, TextField } from '@mui/material';
 import StatisticalData from './components/StatisticalData';
 import YearlyChart from './components/YearlyChart';
 import Navbar from './components/Navbar';
@@ -109,7 +109,7 @@ const Dashboard: React.FC = () => {
               </FormControl>
             </div>
             <div className="filter-container flex gap-4 h-12 ">
-              <ButtonGroup variant="outlined" aria-label="Basic button group">
+              {/* <ButtonGroup variant="outlined" aria-label="Basic button group">
                 <Button
                   onClick={() => handleFilterChange('1yr')}
                 >
@@ -125,7 +125,7 @@ const Dashboard: React.FC = () => {
                 >
                   All Times
                 </Button>
-              </ButtonGroup>
+              </ButtonGroup> */}
               <div className='flex items-center gap-4'>
                 <TextField
                   label="Custom Year"
@@ -159,7 +159,7 @@ const Dashboard: React.FC = () => {
                     <div className='w-[700px]'>
                     <Chart data={data} chartType={chartType} />
                     </div>
-                    <YearlyChart data={data} selectedRegion={selectedRegion}/>
+                    <YearlyChart data={data} />
                   </div>
                 </div>
               )}
