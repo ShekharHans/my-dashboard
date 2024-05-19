@@ -51,7 +51,7 @@ const YearlyChart: React.FC<YearlyChartProps> = ({ data }) => {
                             <TableCell>Date</TableCell>
                             <TableCell>Peak Demand</TableCell>
                             <TableCell>Forecasted Value</TableCell>
-                            <TableCell>Accuracy Difference (%)</TableCell>
+                            <TableCell>Accuracy(%)</TableCell>
                         </TableRow>
                     </TableHead>
                     <TableBody>
@@ -65,7 +65,7 @@ const YearlyChart: React.FC<YearlyChartProps> = ({ data }) => {
                                 <TableCell>
                                     {(
                                       100 - (Math.abs(((row.PeakDemand_MW - row.yhat) / row.PeakDemand_MW) * 100))
-                                    ).toFixed(2)}%
+                                    ).toFixed(2)}
                                 </TableCell>
                             </TableRow>
                         ))}
