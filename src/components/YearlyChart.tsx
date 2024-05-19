@@ -21,6 +21,9 @@ interface YearlyChartProps {
 }
 
 const YearlyChart: React.FC<YearlyChartProps> = ({ data }) => {
+    // Extracting data for IDs <= 146
+    const filteredData = data.filter(item => item.ID <= 146);
+
     // Pagination state
     const [page, setPage] = useState(0);
     const [rowsPerPage, setRowsPerPage] = useState(5);
@@ -37,7 +40,7 @@ const YearlyChart: React.FC<YearlyChartProps> = ({ data }) => {
     };
 
     // Paginated data
-    const paginatedData = data.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage);
+    const paginatedData = filteredData.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage);
 
     return (
         <div className="bg-gray-100 p-10 rounded-md">
@@ -46,8 +49,9 @@ const YearlyChart: React.FC<YearlyChartProps> = ({ data }) => {
                     <TableHead>
                         <TableRow>
                             <TableCell>Date</TableCell>
-                            <TableCell >Peak Demand</TableCell>
-                            <TableCell >Forecasted Value</TableCell>
+                            <TableCell>Peak Demand</TableCell>
+                            <TableCell>Forecasted Value</TableCell>
+                            <TableCell>Accuracy Difference (%)</TableCell>
                         </TableRow>
                     </TableHead>
                     <TableBody>
@@ -56,8 +60,13 @@ const YearlyChart: React.FC<YearlyChartProps> = ({ data }) => {
                                 <TableCell component="th" scope="row">
                                     {row.Date}
                                 </TableCell>
-                                <TableCell >{row.PeakDemand_MW}</TableCell>
-                                <TableCell >{row.yhat}</TableCell>
+                                <TableCell>{row.PeakDemand_MW}</TableCell>
+                                <TableCell>{row.yhat}</TableCell>
+                                <TableCell>
+                                    {(
+                                      100-( Math.abs(((row.PeakDemand_MW - row.yhat) / row.PeakDemand_MW) * 100))
+                                    ).toFixed(2)}%
+                                </TableCell>
                             </TableRow>
                         ))}
                     </TableBody>
@@ -65,7 +74,7 @@ const YearlyChart: React.FC<YearlyChartProps> = ({ data }) => {
                 <TablePagination
                     rowsPerPageOptions={[5, 10, 25]}
                     component="div"
-                    count={data.length}
+                    count={filteredData.length}
                     rowsPerPage={rowsPerPage}
                     page={page}
                     onPageChange={(_, newPage) => handleChangePage(newPage)}
