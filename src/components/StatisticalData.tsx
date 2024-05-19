@@ -38,7 +38,7 @@ const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
             <div className="w-full grid grid-cols-5 sm:grid-cols-5 gap-4 bg-gray-100 p-10 rounded-md">
                 <div className="card">
                     <p className="text-base font-semibold capitalize text-gray-500">
-                        Max PeakDemand_MW :
+                        Max PeakDemand :
                         <br />
                         <span className="value">
                             {maxPeakDemand !== Number.NEGATIVE_INFINITY ? maxPeakDemand : 'N/A'}
@@ -47,7 +47,7 @@ const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
                 </div>
                 <div className="card">
                     <p className="text-base font-semibold capitalize text-gray-500">
-                        Min PeakDemand_MW :
+                        Min PeakDemand :
                         <br />
                         <span className="value">
                             {minPeakDemand !== Number.POSITIVE_INFINITY ? minPeakDemand : 'N/A'}
@@ -56,7 +56,7 @@ const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
                 </div>
                 <div className="card">
                     <p className="text-base font-semibold capitalize text-gray-500">
-                        Avg PeakDemand_MW :
+                        Avg PeakDemand :
                         <br />
                         <span className="value">
                             {!Number.isNaN(avgPeakDemand) ? avgPeakDemand.toFixed(2) : 'N/A'}
@@ -65,7 +65,7 @@ const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
                 </div>
                 <div className="card">
                     <p className="text-base font-semibold capitalize text-gray-500">
-                        Avg Temp_C :
+                        Avg Temp :
                         <br />
                         <span className="value">
                             {!Number.isNaN(avgTempC) ? avgTempC.toFixed(2) : 'N/A'}
@@ -74,7 +74,7 @@ const StatisticalData: React.FC<{ data: any[] }> = ({ data }) => {
                 </div>
                 <div className="card">
                     <p className="text-base font-semibold capitalize text-gray-500">
-                        Avg Average_inflation :
+                        Avg Inflation :
                         <br />
                         <span className="value">
                             {!Number.isNaN(avgAverageInflation) ? avgAverageInflation.toFixed(2) : 'N/A'}

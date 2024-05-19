@@ -26,7 +26,7 @@ const YearlyChart: React.FC<YearlyChartProps> = ({ data }) => {
 
     // Pagination state
     const [page, setPage] = useState(0);
-    const [rowsPerPage, setRowsPerPage] = useState(5);
+    const [rowsPerPage] = useState(5);
 
     // Handle page change
     const handleChangePage = (newPage: number) => {
@@ -34,9 +34,9 @@ const YearlyChart: React.FC<YearlyChartProps> = ({ data }) => {
     };
 
     // Handle rows per page change
-    const handleChangeRowsPerPage = (event: React.ChangeEvent<HTMLInputElement>) => {
-        setRowsPerPage(parseInt(event.target.value, 10));
-        setPage(0);
+    const handleChangeRowsPerPage = () => {
+        // Since we fixed the rows per page to 5, no action is needed here
+        // This function is retained to prevent any warnings/errors
     };
 
     // Paginated data
@@ -64,7 +64,7 @@ const YearlyChart: React.FC<YearlyChartProps> = ({ data }) => {
                                 <TableCell>{row.yhat}</TableCell>
                                 <TableCell>
                                     {(
-                                      100-( Math.abs(((row.PeakDemand_MW - row.yhat) / row.PeakDemand_MW) * 100))
+                                      100 - (Math.abs(((row.PeakDemand_MW - row.yhat) / row.PeakDemand_MW) * 100))
                                     ).toFixed(2)}%
                                 </TableCell>
                             </TableRow>
@@ -72,7 +72,7 @@ const YearlyChart: React.FC<YearlyChartProps> = ({ data }) => {
                     </TableBody>
                 </Table>
                 <TablePagination
-                    rowsPerPageOptions={[5, 10, 25]}
+                    rowsPerPageOptions={[5]} // Only include option for 5 rows per page
                     component="div"
                     count={filteredData.length}
                     rowsPerPage={rowsPerPage}
