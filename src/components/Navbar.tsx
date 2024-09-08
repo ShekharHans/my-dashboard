@@ -3,7 +3,6 @@ import AppBar from '@mui/material/AppBar';
 import Stack from '@mui/material/Stack';
 import Toolbar from '@mui/material/Toolbar';
 
-import Logo from "../assets/logo.png"
 
 
 export default function Navbar() {

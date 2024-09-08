@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Loader from './components/Loader';
 import Chart from './components/Chart';
 import { Button,  FormControl, InputLabel, MenuItem, Select, SelectChangeEvent, TextField } from '@mui/material';
-import StatisticalData from './components/StatisticalData';
 import YearlyChart from './components/YearlyChart';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
@@ -76,7 +75,7 @@ const Dashboard: React.FC = () => {
 
   useEffect(() => {
     if (filterType !== 'custom') {
-      setCustomYear(null); // Reset customYear state if type is not 'custom'
+      setCustomYear(null); 
     }
   }, [filterType]);
 
