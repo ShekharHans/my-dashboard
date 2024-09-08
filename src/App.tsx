@@ -129,7 +129,7 @@ const Dashboard: React.FC = () => {
               <div className='flex items-center gap-4'>
                 <TextField
                   label="Custom Year"
-                  type="number"
+                  type="search"
                   value={customYear || ''}
                   onChange={handleCustomYearChange}
                   className='rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black'
@@ -144,7 +144,7 @@ const Dashboard: React.FC = () => {
           ) : (
             <>
               {data.length === 0 ? (
-                <div className=' w-full h-full flex justify-center items-center flex-col'>
+                <div className='w-full h-full flex justify-center items-center flex-col'>
                   <h1 className="text-6xl md:text-7xl lg:text-9xl font-bold tracking-wider text-gray-300">
                     404
                   </h1>
@@ -154,7 +154,7 @@ const Dashboard: React.FC = () => {
                 </div>
               ) : (
                 <div className='p-8'>
-                  <StatisticalData data={data} />
+                  {/* <StatisticalData data={data} /> */}
                   <div className="flex w-full gap-4 items-center justify-around mt-8">
                     <div className='w-[700px]'>
                     <Chart data={data} chartType={chartType} />

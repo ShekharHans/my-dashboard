@@ -15,8 +15,8 @@ export default function Navbar() {
 
                     <div>
                         <a href="/" className='flex gap-4'>
-                            <img src={Logo} alt="" width={30} height={30} />
-                            <h1 className='hidden font-heading text-2xl font-semibold sm:inline-block'>AANWIK TECHNOLOGIES</h1>
+                            {/* <img src={Logo} alt="" width={30} height={30} /> */}
+                            <h1 className='hidden font-heading text-2xl font-semibold sm:inline-block'>POWER VISION</h1>
                         </a>
                     </div>
                 </Toolbar>

@@ -21,7 +21,7 @@ const Sidebar: React.FC<SidebarProps> = ({ handleChartTypeChange }) => {
                         <label className="px-3 text-xs font-semibold uppercase text-gray-900">Analytics</label>
                         <button className={defaultOption === "PeakDemand" ? "flex w-full transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700 active" : "flex w-full transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"} onClick={() => handleClick("PeakDemand")}>
                             <BarChart className="h-5 w-5" aria-hidden="true" />
-                            <span className="mx-2 text-sm font-medium">Peak Demand</span>
+                            <span className="mx-2 text-sm font-medium">Demand(MW)</span>
                         </button>
                         {/* <button className={defaultOption === "Energy" ? "w-full flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700 active" : "flex w-full transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"} onClick={() => handleClick("Energy")}>
                             <Wallet className="h-5 w-5" aria-hidden="true" />
